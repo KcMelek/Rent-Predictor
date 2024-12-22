@@ -1,0 +1,61 @@
+export const propertyTypes = [
+  'Appartement',
+  'Maison',
+  "Maison ou chambre d'hôtes",
+  'Villa',
+  'Bungalow',
+  'Gîte',
+  "Appart'hôtel",
+  'Ferme',
+  'Chalet',
+  'Loft / Duplex',
+  'Hôtel'
+];
+
+export const cities = [
+  'La Marsa',
+  'Bizerte',
+  'Marsa',
+  'Sidi Bou Saïd',
+  'Tunis',
+  'Soliman / Mornag',
+  'Hammamet',
+  'Monastir',
+  'Djerba',
+  'Kelibia',
+  'Kélibia',
+  'Zarzis',
+  'Sfax',
+  'Ariana',
+  'Korba',
+  'Nabeul',
+  'Carthage',
+  'Ain Draham',
+  'Tozeur',
+  'Kerkennah',
+  'Retiba',
+  'Sousse',
+  'Zaghouan',
+  'Les Berges du Lac',
+  'Haouaria',
+  'Mahdia',
+  'Gammarth'
+];
+
+export const equipmentOptions = [
+  { id: "wifi", label: "Wireless Internet", icon: "Wifi" },
+  { id: "parking", label: "Free Parking on Premises", icon: "Car" },
+  { id: "pets", label: "Pets Allowed", icon: "Dog" },
+  { id: "pool", label: "Pool", icon: "Waves" },
+  { id: "ac", label: "Climatisation / AC", icon: "Fan" },
+  { id: "fireplace", label: "Cheminée", icon: "Flame" },
+  { id: "family", label: "Family/Kid Friendly", icon: "Users" },
+  { id: "hottub", label: "Hot Tub", icon: "Bath" },
+  { id: "hotwater", label: "Hot Water", icon: "Droplet" },
+  { id: "elevator", label: "Elevator in Building", icon: "ArrowUpDown" },
+  { id: "heating", label: "Heating", icon: "Thermometer" },
+  { id: "kitchen", label: "Kitchen", icon: "UtensilsCrossed" },
+  { id: "tv", label: "TV", icon: "Tv" },
+  { id: "essentials", label: "Essentials", icon: "Package" },
+  { id: "washer", label: "Washer", icon: "Shirt" }
+];
